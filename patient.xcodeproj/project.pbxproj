@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C12E7C711FA640C8007A81BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12E7C701FA640C8007A81BB /* Assets.xcassets */; };
+		C12E7C731FA65450007A81BB /* calendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12E7C721FA65450007A81BB /* calendarViewController.swift */; };
+		C12E7C751FA654BF007A81BB /* trendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12E7C741FA654BF007A81BB /* trendsViewController.swift */; };
 		C1755D211F959EB1002DE747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1755D201F959EB1002DE747 /* AppDelegate.swift */; };
 		C1755D231F959EB1002DE747 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1755D221F959EB1002DE747 /* WelcomeViewController.swift */; };
 		C1755D261F959EB1002DE747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1755D241F959EB1002DE747 /* Main.storyboard */; };
@@ -43,6 +45,8 @@
 
 /* Begin PBXFileReference section */
 		C12E7C701FA640C8007A81BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C12E7C721FA65450007A81BB /* calendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarViewController.swift; sourceTree = "<group>"; };
+		C12E7C741FA654BF007A81BB /* trendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trendsViewController.swift; sourceTree = "<group>"; };
 		C1755D1D1F959EB1002DE747 /* patient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = patient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1755D201F959EB1002DE747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1755D221F959EB1002DE747 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				C1B1ED091FA41DE1008083F9 /* pamViewController.swift */,
 				C1B1ED0B1FA41E1C008083F9 /* activityViewController.swift */,
 				C1B1ED0D1FA41E2C008083F9 /* medicationViewController.swift */,
+				C12E7C721FA65450007A81BB /* calendarViewController.swift */,
+				C12E7C741FA654BF007A81BB /* trendsViewController.swift */,
 			);
 			path = patient;
 			sourceTree = "<group>";
@@ -197,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12E7C731FA65450007A81BB /* calendarViewController.swift in Sources */,
 				C1B1ED0E1FA41E2C008083F9 /* medicationViewController.swift in Sources */,
 				C1755D231F959EB1002DE747 /* WelcomeViewController.swift in Sources */,
 				C1B1ED0C1FA41E1C008083F9 /* activityViewController.swift in Sources */,
@@ -204,6 +211,7 @@
 				C1B1ED0A1FA41DE1008083F9 /* pamViewController.swift in Sources */,
 				C1755D211F959EB1002DE747 /* AppDelegate.swift in Sources */,
 				C1806E3C1F95AB8E003FC235 /* historyViewController.swift in Sources */,
+				C12E7C751FA654BF007A81BB /* trendsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

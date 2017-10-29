@@ -9,6 +9,7 @@
 import UIKit
 
 class historyViewController: UIViewController {
+
     @IBOutlet weak var calendarbg: UIView!
     @IBOutlet weak var trendsbg: UIView!
     override func viewDidLoad() {
@@ -27,6 +28,8 @@ class historyViewController: UIViewController {
         trendsbg.layer.shadowOpacity = 0.5;
         trendsbg.layer.shadowRadius = 10.0;
         trendsbg.layer.cornerRadius = 5;
+        
+      
         
         
     }
