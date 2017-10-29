@@ -10,9 +10,16 @@ import UIKit
 
 class activityViewController: UIViewController {
 
+    @IBOutlet weak var sleephoursdisplay: UILabel!
+    @IBOutlet weak var sleepslider: UISlider!
+    @IBOutlet weak var stepdisplay: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //get the sleep hours and display on slider and the label, display the steps
+        
+        
+        
+        
         // Do any additional setup after loading the view.
     }
 
