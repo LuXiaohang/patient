@@ -349,7 +349,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="low" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vvx-Dr-Fgo">
-                                        <rect key="frame" x="200" y="52" width="40" height="21"/>
+                                        <rect key="frame" x="170" y="52" width="70" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -477,6 +477,7 @@
                         <outlet property="mood" destination="47O-bB-Jpu" id="d9C-d3-3B0"/>
                         <outlet property="moodbg" destination="Um5-Sq-KVI" id="n7b-k3-fF2"/>
                         <outlet property="moodlabel" destination="vvx-Dr-Fgo" id="S9U-b8-JiB"/>
+                        <outlet property="sleephour" destination="sPV-hr-Mih" id="0bX-mG-XdG"/>
                         <outlet property="todaydate" destination="LAX-zu-9ab" id="5zE-Vs-PYF"/>
                         <outlet property="todaydatebg" destination="Odd-eS-kAX" id="mbL-Ui-UPZ"/>
                     </connections>
@@ -851,8 +852,8 @@
                                     <segue destination="bvA-hp-JC0" kind="showDetail" identifier="pamback" id="eu3-KT-nOU"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUR-ry-UvF">
-                                <rect key="frame" x="133" y="509" width="55" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hi, Todd" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUR-ry-UvF">
+                                <rect key="frame" x="81" y="507" width="159" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -897,6 +898,6 @@
         <image name="today" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ndF-CJ-WeU"/>
+        <segue reference="eu3-KT-nOU"/>
     </inferredMetricsTieBreakers>
 </document>

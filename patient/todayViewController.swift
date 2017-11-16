@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import HealthKit
 
 class todayViewController: UIViewController {
+    
+    @IBOutlet weak var sleephour: UILabel!
     
     @IBOutlet weak var todaydatebg: UIView!
     @IBOutlet weak var moodbg: UIView!
